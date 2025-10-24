@@ -1,0 +1,100 @@
+site_name: PhilDIY
+site_url: 
+site_author: PhilDIY
+repo_name: PhilDIY
+repo_url: 
+
+theme: 
+  name: material
+  language: zh
+  static_templates:
+    - 404.html
+
+  icon:
+    repo: fontawesome/brands/github
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  palette: 
+  # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+      primary: indigo
+      accent: indigo
+
+  # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+      primary: indigo
+      accent: indigo
+
+  features:
+    - content.code.copy
+    - content.tooltips
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - header.autohide
+    - search.highlight
+    - search.suggest
+
+  custom_dir: overrides
+
+
+# TODO
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - footnotes
+      
+# TODO 
+# Social & Analytics
+extra:
+  analytics:
+    provider: google
+    property: G-7X2VQSF62R
+
+# TODO
+nav:
+  - 0. 前言:
+    - 前言: index.md
+    - 使用指南: guide.md
+  - 0.5 预备知识:
+    - 哲学入门: 
+      - Prerequisites/index.md
+      - 哲学导论: Prerequisites/introduction_to_philosophy.md
+      - 哲学史基础: Prerequisites/history_of_philosophy.md
+      - 逻辑学基础: Prerequisites/basic_logic.md
+    - 哲学阅读与写作: Prerequisites/philosophy_reading_writing.md
+    - 文学阅读: Prerequisites/literature_recommendations.md
+    - 高校与学术: Prerequisites/academic_resources.md
+  - 1. 认识论:
+    - Ch01/index.md
+    - 1.1 : Ch01/1.1.md
+    - 1.2 : Ch01/1.2.md
+    - 1.3 : Ch01/1.3.md
+  - 2. 形而上学:
+    - Ch02/index.md
+  - 3. 伦理学:
+    - Ch03/index.md
+  - 4. 心灵哲学:
+    - Ch04/index.md
+  - 5. 政治哲学:
+    - Ch05/index.md
+  - 6. 语言哲学:
+    - Ch06/index.md
+  - 7. 科学哲学:
+    - Ch07/index.md
+  - 8. 宗教哲学:
+    - Ch08/index.md
+  - 9. 逻辑学:
+    - Ch09/index.md
+  - 10. 美学:
+    - Ch10/index.md
