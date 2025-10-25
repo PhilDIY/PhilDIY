@@ -1,8 +1,8 @@
 site_name: PhilDIY
-site_url: 
+site_url: https://phildiy.github.io/PhilDIY/
 site_author: PhilDIY
 repo_name: PhilDIY
-repo_url: 
+repo_url: https://github.com/PhilDIY/PhilDIY
 
 theme: 
   name: material
