@@ -64,8 +64,7 @@ extra:
 # TODO
 nav:
   - 0 前言:
-    - 前言: index.md
-    - 使用指南: guide.md
+    - index.md
   - 0.5 预备知识:
     - 哲学入门: 
       - 哲学导论: Prerequisites/introduction_to_philosophy.md
@@ -75,24 +74,26 @@ nav:
     - 文学阅读: Prerequisites/literature_recommendations.md
     - 高校与学术: Prerequisites/academic_resources.md
   - 1 认识论:
-    - 1.0 认识论导论: Ch01/认识论导论.md
+    - 1.0 认识论: Ch01/认识论.md
     - 1.1 : Ch01/1.1.md
     - 1.2 : Ch01/1.2.md
     - 1.3 : Ch01/1.3.md
   - 2 形而上学:
-    - Ch02/index.md
+    - 2.0 形而上学: Ch02/形而上学.md
+    - 2.1 行动哲学: Ch02/行动哲学.md
+    - 2.2 元哲学: Ch02/元哲学.md
   - 3 伦理学:
     - Ch03/index.md
   - 4 心灵哲学:
-    - Ch04/index.md
+    - 4.0 心灵哲学: Ch04/心灵哲学.md
   - 5 政治哲学:
     - Ch05/index.md
   - 6 语言哲学:
-    - Ch06/index.md
+    - 6.0 语言哲学: Ch06/语言哲学.md
   - 7 科学哲学:
     - Ch07/index.md
   - 8 宗教哲学:
-    - Ch08/index.md
+    - 8.0 宗教哲学: Ch08/宗教哲学.md
   - 9 逻辑学:
     - Ch09/index.md
   - 10 美学:
